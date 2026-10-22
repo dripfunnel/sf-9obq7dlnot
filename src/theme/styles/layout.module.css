@@ -1,35 +1,35 @@
 .shell {
-  --bg: #fbf3ee;
+  --bg: #faf8f5;
   --surface: #fff;
   --soft: color-mix(in srgb, var(--ink) 5%, var(--bg));
   --tint: color-mix(in srgb, var(--accent) 12%, var(--bg));
   --danger: #b42318;
-  --ink: #3a2724;
-  --ink-soft: #76605a;
-  --muted: #76605a;
-  --line: rgb(58 39 36 / 12%);
-  --accent: #a9523f;
+  --ink: #1c1b19;
+  --ink-soft: #68645c;
+  --muted: #68645c;
+  --line: rgb(28 27 25 / 12%);
+  --accent: #1c1b19;
   --accent-ink: #fff;
-  --focus: #3a2724;
-  --radius: 18px;
-  --button-radius: 18px;
-  --heading-font: 'Lora', georgia, serif;
+  --focus: #1c1b19;
+  --radius: 2px;
+  --button-radius: 2px;
+  --heading-font: 'DM Sans', system-ui, sans-serif;
   --heading-weight: 500;
   --brand-weight: 500;
   --heading-case: none;
   --heading-spacing: -0.02em;
-  --body-font: 'Nunito', system-ui, sans-serif;
-  --header-bg: #fbf3ee;
-  --header-ink: #3a2724;
-  --header-hover: rgb(58 39 36 / 6%);
+  --body-font: 'DM Sans', system-ui, sans-serif;
+  --header-bg: #faf8f5;
+  --header-ink: #1c1b19;
+  --header-hover: rgb(28 27 25 / 6%);
   --footer-bg: #fff;
-  --footer-ink: #3a2724;
-  --footer-muted: #76605a;
-  --footer-line: rgb(58 39 36 / 12%);
-  --picture: linear-gradient(135deg, hsl(18 35% 82%), hsl(18 30% 64%));
-  --picture-alt: linear-gradient(135deg, hsl(340 35% 82%), hsl(340 30% 64%));
-  --announce-bg: #f1dcd1;
-  --announce-ink: #3a2724;
+  --footer-ink: #1c1b19;
+  --footer-muted: #68645c;
+  --footer-line: rgb(28 27 25 / 12%);
+  --picture: linear-gradient(135deg, hsl(24 35% 82%), hsl(24 30% 64%));
+  --picture-alt: linear-gradient(135deg, hsl(200 35% 82%), hsl(200 30% 64%));
+  --announce-bg: #1c1b19;
+  --announce-ink: #faf8f5;
   --df-sealed-font: var(--body-font);
   --df-sealed-color: var(--ink);
   --df-sealed-muted: var(--muted);
@@ -311,22 +311,5 @@
 
   .about {
     grid-column: auto;
-  }
-
-  .bar {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px 24px;
-    padding-block: 14px 6px;
-  }
-
-  .brand {
-    flex: 1 0 100%;
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .tools {
-    margin-left: 0;
   }
 }

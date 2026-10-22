@@ -4,19 +4,9 @@
     "lead": "Find what suits you, at your own pace.",
     "shop": "Start browsing"
   },
-  "features": {
-    "one": {
-      "title": "Browse at your pace",
-      "body": "Everything in one place."
-    },
-    "two": {
-      "title": "Your account",
-      "body": "Your orders and addresses together."
-    },
-    "three": {
-      "title": "Questions?",
-      "body": "Write to us from the contact page."
-    }
+  "story": {
+    "title": "Simple by design",
+    "body": "A quiet place to browse, with nothing in the way of what you came for."
   },
   "join": {
     "title": "Join us",
